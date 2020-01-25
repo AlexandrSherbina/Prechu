@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Tajem";
+  src: url("../../fonts/Tajem.eot?2le5ht");
+  src: url("../../fonts/Tajem.eot?2le5ht#iefix") format("embedded-opentype"),
+    url("../../fonts/Tajem.ttf?2le5ht") format("truetype"),
+    url("../../fonts/Tajem.woff?2le5ht") format("woff"),
+    url("../../fonts/Tajem.svg?2le5ht#Tajem") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Tajem" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-burial .path1:before {
+  content: "\e904";
+  color: rgb(161, 199, 255);
+}
+.icon-burial .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(131, 178, 255);
+}
+.icon-burial .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(59, 64, 122);
+}
+.icon-burial .path4:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(70, 77, 127);
+}
+.icon-burial .path5:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-burial .path6:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(223, 235, 255);
+}
+.icon-burial .path7:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 192, 164);
+}
+.icon-burial .path8:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 168, 122);
+}
+.icon-burial .path9:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(30, 41, 68);
+}
+.icon-burial .path10:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(62, 73, 96);
+}
+.icon-burial .path11:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(42, 53, 78);
+}
+.icon-burial .path12:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(30, 41, 68);
+}
+.icon-burial .path13:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 168, 122);
+}
+.icon-image:before {
+  content: "\e900";
+}
+.icon-arrow-right:before {
+  content: "\e901";
+}
+.icon-heart:before {
+  content: "\e902";
+}

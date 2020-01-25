@@ -1,0 +1,25 @@
+.grid-wrapper {
+  overflow: hidden;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -20px;
+}
+.grid-item {
+  padding: 20px;
+}
+
+.grid-large {
+  margin: 0 -50px;
+}
+.grid-large .grid-item {
+  padding: 0 50px;
+}
+
+.grid-medium {
+  margin: 0 -40px;
+}
+.grid-medium .grid-item {
+  padding: 0 40px;
+}
