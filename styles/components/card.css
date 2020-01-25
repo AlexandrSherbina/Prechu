@@ -12,3 +12,15 @@
 
 .card-image > img {
 }
+.card-icon-pen {
+  width: 78px;
+  height: 108px;
+}
+.card-icon-tv {
+  width: 95px;
+  height: 81px;
+}
+.card-icon-pie {
+  width: 98px;
+  height: 90px;
+}

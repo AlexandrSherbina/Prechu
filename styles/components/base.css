@@ -10,13 +10,25 @@ html {
 }
 
 .container {
-  width: 800px;
+  width: 958px;
   margin: 0 auto;
 }
 
 .wrapper {
   position: relative;
   overflow: hidden;
+}
+.header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+  
+
+.logo {
+
 }
 a {
   color: black;
