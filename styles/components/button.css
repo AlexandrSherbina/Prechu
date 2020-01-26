@@ -1,5 +1,7 @@
 .button {
+ 
   margin: 0;
+  
   border: 2px solid transparent;
   border-radius: 0;
   display: inline-block;
@@ -29,14 +31,20 @@
 }
 
 .button-primary {
-  background-color: #4dffea;
+  
+  margin-top: 34px;;
+  margin-left: 12px;
+  background-color:#5094f2;
   color: #000000;
+  font-size: 22px;
+  color: #ffffff;
 }
 
 .button-primary:hover {
-  background-color: #000000;
-  color: #4dffea;
-  border-color: #4dffea;
+  
+  background-color: white;
+  color: #5094f2;
+  border-color: #5094f2;
 }
 
 .button-success {

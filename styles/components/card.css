@@ -1,13 +1,40 @@
 .card {
+  text-align: center;
+ 
 }
-
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .card-title {
+ 
 }
+.card-title-section-shopping {
+  color: #6f7173;
+  font-size: 42px;
+  font-weight: 400;
+  text-align: center;
 
+}
+.card-title-section-contrary {
+  color: #5094f2;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 44.42px;
+}
 .card-description {
+  color: #909090;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 56px;
+
 }
 
 .card-image > img {
@@ -15,12 +42,32 @@
 .card-icon-pen {
   width: 78px;
   height: 108px;
+  object-fit: contain;
 }
 .card-icon-tv {
+  
   width: 95px;
   height: 81px;
+  object-fit: contain;
 }
 .card-icon-pie {
   width: 98px;
   height: 90px;
+}
+.card-round {
+ 
+  border-radius: 50%;
+  width: 186px;
+  height: 186px;
+  background-color: #5094f2;
+}
+.card-red {
+  background-color: #d94748;
+}
+.card-yellow {
+  background-color: #ebbb11;
+}
+.card-icon-cart {
+  height: 279px;
+  object-fit: contain;
 }

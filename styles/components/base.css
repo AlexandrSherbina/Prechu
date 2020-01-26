@@ -20,15 +20,52 @@ html {
 }
 .header {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
+  height: 89px;
  
 }
   
 
 .logo {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  
+}
+.logo:hover {
+  text-decoration: none;
+}
 
+.logo-round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: #5094f2;
+  
+  
+}
+.logo-quotes {
+  width: 21px;
+  height: 18px;
+}
+.logo-name {
+  font-size: 42px;
+  font-weight: 300;
+  padding-left: 15px;
+  letter-spacing: 0.42px;
+}
+.footer-copywrite {
+  text-align: center;
+  padding: 33px 0 44px 0;
+  
+}
+.border-line {
+  border: 2px solid #b4afaff5 ;
+  opacity: 0.1;
 }
 a {
   color: black;

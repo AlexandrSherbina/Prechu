@@ -1,7 +1,12 @@
 .nav {
+  font-size: 20px;
+  color: #6c6c6c;
+  letter-spacing: 0.2px;
+  font-weight: 300;
 }
 .nav .nav-item {
     color: black;
+    padding-right: 39px;
 }
 .nav .nav-item:hover {
    
@@ -10,5 +15,6 @@
 }
 
 .nav .is-active {
-    color: black;
+    color:#5094f2;
+   
 }

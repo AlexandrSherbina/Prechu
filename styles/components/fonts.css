@@ -26,20 +26,45 @@
 }
 
 .icon-arrow_forward_ios:before {
-  content: "\e903";
+  content: "\e903"; 
+  color: black;
+  font-size: 63px;;
+  
 }
 .icon-arrow_back_ios:before {
   content: "\e904";
 }
 .icon-checkmark:before {
   content: "\e902";
+  border-radius: 50%;
+  padding-right: 11px;
 }
+.icon-checkmark {
+
+}
+.icon-checkmark:hover {
+  color: #5094f2;
+  background-color: white;
+}
+
 .icon-circle:before {
   content: "\e900";
-  width: 186px;
+  color: blue;
+  font-size: 186px;
+  background-color: red;
+  border-radius: 50%;
   
+}
+.icon-circle:hover {
+  color: blue;
+
 }
 .icon-quotes:before {
   content: "\e901";
+  height: 18px;
+  width: 21px;
+  color: #ffffff;
+  letter-spacing: 0.64px;
+  font-weight: 400;
 }
 

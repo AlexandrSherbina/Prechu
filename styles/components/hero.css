@@ -1,13 +1,16 @@
 .hero {
-   position: relative;
+  position: relative;
    top: 20px;
    
 }
 
 .hero-title {
+    font-size: 42px;
+    margin-top: 153px;
 }
 
-.hero-subtitle {
+.hero-description {
+    font-size: 26px;
 }
 .hero-background {
     position: absolute;
@@ -20,7 +23,7 @@
 }
 .hero-background img {
     height: 100%;
-    -o-object-fit: cover;
+   
     object-fit: cover;
    /* background-image: url('../../images/fon.png');
     width: 100%;*/
@@ -28,4 +31,18 @@
 .hero-foreground {
     position: relative;
     color: #fff;
+}
+.hero-decore {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    background-image: url(../..images/decore.png) ;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+
+}
+.hero-iphone {
+    height: 436px;
+    width: 345px;
+    object-fit: contain;
 }

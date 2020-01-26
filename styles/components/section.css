@@ -4,10 +4,24 @@
 }
 
 .section-title {
+  color: #6f7173;
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 70px;
+
 }
 .section-subtitle {
+ 
+  font-family: "Segoe WPN";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 60%;
+  color: #909090;
+  
+  
 }
 .section-description {
+  line-height: 36px;
 }
 
 .section-background img {
