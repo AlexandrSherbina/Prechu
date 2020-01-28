@@ -34,7 +34,7 @@ html {
 .logo {
   display: flex;
   justify-content: left;
-  align-items: left;
+ 
   
 }
 .logo:hover {

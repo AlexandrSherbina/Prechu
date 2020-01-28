@@ -10,7 +10,7 @@
   text-transform: none;
   text-align: center;
   text-decoration: none;
-  -webkit-appearance: none;
+ 
   appearance: none;
 }
 .button:hover {
@@ -107,6 +107,6 @@
     min-width: auto;
     min-height: auto;
     font-size: 22px;
-    font-weight: 0;
+    
   }
 }
