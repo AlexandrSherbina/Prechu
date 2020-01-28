@@ -1,4 +1,7 @@
 .nav {
+  display: none;
+  justify-content: flex-end;
+ /* background: url(https://images.app.goo.gl/5RnJTZhAGzHURPJc6) left center no-repeat;*/
   font-size: 20px;
   color: #6c6c6c;
   letter-spacing: 0.2px;
@@ -17,4 +20,10 @@
 .nav .is-active {
     color:#5094f2;
    
+}
+@media (min-width:960px)   {
+  .nav {
+    display: flex;
+    
+  }
 }

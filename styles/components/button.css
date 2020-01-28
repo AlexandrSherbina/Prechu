@@ -1,7 +1,7 @@
 .button {
  
+
   margin: 0;
-  
   border: 2px solid transparent;
   border-radius: 0;
   display: inline-block;
@@ -34,8 +34,9 @@
   
   margin-top: 34px;;
   margin-left: 12px;
+  padding-top: 12px;;
+  padding-bottom: 12px ;
   background-color:#5094f2;
-  color: #000000;
   font-size: 22px;
   color: #ffffff;
 }
@@ -78,4 +79,34 @@
   background-color: transparent;
   color: yellow;
   border-color: yellow;
+}
+
+@media (min-width: 320px) {
+  .button-primary {
+    min-width: 235px;
+    min-height: 53px;
+    font-size: 31px;
+    font-weight: 300;
+    margin-bottom: 31px;
+  }
+ 
+}
+@media (min-width: 640px) {
+  .button-primary {
+    min-width: 235px;
+    min-height: 53px;
+    font-size: 31px;
+    font-weight: 300;
+    margin-bottom: 31px;
+  }
+    
+   
+}
+@media (min-width: 960px) {
+  .button-primary {
+    min-width: auto;
+    min-height: auto;
+    font-size: 22px;
+    font-weight: 0;
+  }
 }
