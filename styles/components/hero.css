@@ -22,11 +22,14 @@
   
 }
 .hero-background img {
-    height: 100%;
+   height: 100%;
    
     object-fit: cover;
    /* background-image: url('../../images/fon.png');
-    width: 100%;*/
+    width: 100%;
+   
+    background-position: left;
+    background-repeat: no-repeat;*/
 }
 .hero-foreground {
     position: relative;

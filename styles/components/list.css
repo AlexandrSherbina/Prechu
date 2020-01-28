@@ -1,2 +1,12 @@
 .list {
+    font-size: 15px;
+    line-height: 36px;
+    color: #909090;
+}
+.list-item {
+   list-style-type: none;
+   margin-left: 0; 
+   padding-left: 0;
+   
+  
 }

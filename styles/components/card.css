@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 56px;
+ /* margin-left: 56px;*/
 
 }
 
@@ -55,7 +55,7 @@
   height: 90px;
 }
 .card-round {
- 
+  margin: 0 auto;
   border-radius: 50%;
   width: 186px;
   height: 186px;
