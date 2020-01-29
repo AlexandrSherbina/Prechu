@@ -49,14 +49,11 @@
 
 .icon-circle:before {
   content: "\e900";
-  color: blue;
-  font-size: 186px;
-  background-color: red;
-  border-radius: 50%;
+ 
   
 }
 .icon-circle:hover {
-  color: blue;
+ 
 
 }
 .icon-quotes:before {
@@ -70,7 +67,16 @@
 
 .icon-list:before {
   content: "\e906";
+  font-size: 44px;
+  
+}
+.icon-list {
   background-color: #5094f2;
   color: white;
-  font-size: 44px;
+}
+.icon-list:hover {
+  background-color: white;
+  color:#5094f2;
+ 
+  
 }
