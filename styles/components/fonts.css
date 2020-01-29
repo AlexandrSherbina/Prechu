@@ -68,3 +68,9 @@
   font-weight: 400;
 }
 
+.icon-list:before {
+  content: "\e906";
+  background-color: #5094f2;
+  color: white;
+  font-size: 44px;
+}
